@@ -8,12 +8,14 @@ body{
 
 }
 
-p{
+p, a, i{
   color: black;
   font-size: .5em;
 }
 
-
+i{
+  color: gray;
+}
 
 .paper{
   margin: 2em auto;
