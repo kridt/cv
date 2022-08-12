@@ -111,7 +111,7 @@ modtage input.</p>
               </div>
               <div style={{display: "flex"}}>
                 <div style={{flex:"1"}} className='imgDiv'>
-                  <img src='https://via.placeholder.com/100' />
+                  <img src='https://via.placeholder.com/100' alt="placeholder" />
                 </div>
                 <div style={{flex:"1", lineHeight:"4px", paddingTop:"1em"}}>
                   <p style={{marginLeft:"2.5em", fontSize:".8em"}}><strong>Web udvikler</strong></p>
