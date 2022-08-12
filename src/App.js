@@ -55,6 +55,71 @@ modtage input.</p>
                 </div>
               </div>
 
+              <div style={{display: "flex"}}>
+                <div style={{flex:"1", backgroundColor:"#3A798B"}}><h3 style={{marginLeft:"1em"}}>Erfaring</h3></div>
+                <div style={{flex:"1", backgroundColor:"#333"}}><h3 style={{marginLeft:"1.5em"}}>Kvalifikationer</h3></div>
+              </div>
+
+              <div style={{display:"flex"}}>
+                <div className='erfaring' style={{lineHeight:"3px", flex:"1"}}>
+                  <div>
+
+                  <p style={{fontSize:".8em", marginLeft:"1.3em"}}><strong>Føtex</strong></p>
+                  <p style={{ color:"#3A798B", marginLeft:"2em" }}>2019 -</p>
+                  <br />
+                  <p style={{marginLeft:"2em"}}>Kundeservice</p>
+                  <p style={{marginLeft:"2em"}}>Kassse medarbejder</p>
+                  <p style={{marginLeft:"2em"}}>Lukke medansvarlig</p>
+                  <p style={{marginLeft:"2em"}}>Elektronik ansvarlig</p>
+                  <hr style={{margin:"0 1em", color:"#3A798B"}} />
+                  </div>
+                  <div>
+
+                  <p style={{fontSize:".8em", marginLeft:"1.3em"}}><strong>Fritid</strong></p>
+                  <br />
+                  <p style={{marginLeft:"2em"}}>Venner</p>
+                  <p style={{marginLeft:"2em"}}>El bil</p>
+                  <p style={{marginLeft:"2em"}}>Fifa</p>
+                  <p style={{marginLeft:"2em"}}>Fodbold tosse og stolt Spurs supporter</p>
+                  <hr style={{margin:"0 1em", color:"#3A798B"}} />
+                  </div>
+                  
+                </div>
+                <div style={{backgroundColor:"#E6E6E6", color:"#3A798B", flex:"1"}} className='kval'>
+                  
+
+                  <ul>
+                    <li>Kundeservice</li>
+                    <li>Frontend udvikling</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>NaxtJs</li>
+                    <li>Sass</li>
+                  </ul>
+                  
+                </div>
+              </div> 
+              <div style={{ display:"flex" }}>
+                <div style={{flex:"1"}} >
+                    <br />
+                </div>
+                <div style={{ backgroundColor:"#333", flex:"1" }}>
+                  <h3 style={{marginLeft:"1.5em"}}>Uddannelse</h3>
+                </div>
+              </div>
+              <div style={{display: "flex"}}>
+                <div style={{flex:"1"}} className='imgDiv'>
+                  <img src='https://via.placeholder.com/100' />
+                </div>
+                <div style={{flex:"1", lineHeight:"4px", paddingTop:"1em"}}>
+                  <p style={{marginLeft:"2.5em", fontSize:".8em"}}><strong>Web udvikler</strong></p>
+                  <p style={{marginLeft:"3.5em"}}>2019 - 2021</p>
+                  <p style={{marginLeft:"3.5em"}}>Roskilde Tekniske Skole</p>
+                  <hr style={{ margin: "0 2em" }} />
+                </div>
+              </div>
       </div>
     </div>
   );
