@@ -1,49 +1,48 @@
-body{
+body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box  ;
+  box-sizing: border-box;
   background-color: grey;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
-
 }
 
-p, a, i{
+p,
+a,
+i {
   color: black;
-  font-size: .5em;
+  font-size: 0.5em;
 }
 
-i{
+i {
   color: gray;
 }
 
-.paper{
+.paper {
   margin: 2em auto;
   max-width: 500px;
   background-color: white;
   height: 1000px;
-  }
+}
 
-  
-    .topDiv{
-      display: flex;
-      
-    }
+.topDiv {
+  display: flex;
+}
 
-  .topDivLeft{
-    background-color: #333333;
-    flex: 1;
-    color: white;
-    padding: 0 1em;
-  }
+.topDivLeft {
+  background-color: #333333;
+  flex: 1;
+  color: white;
+  padding: 0 1em;
+}
 
-  .topDivRight{
-    background-color: #3A798B;
-    flex: 1;
-    padding: 0 1em;
-  }
+.topDivRight {
+  background-color: #3a798b;
+  flex: 1;
+  padding: 0 1em;
+}
 
-  .topDivRight p{
-    padding-left: 1.5em;
-    color: #ABD8DD;
-  }
+.topDivRight p {
+  padding-left: 1.5em;
+  color: #abd8dd;
+}
