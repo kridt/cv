@@ -58,7 +58,7 @@ function App() {
                   Constructive criticism is something I dont take personally,
                   and would like to hear so i can improve. I see the benefit in
                   accepting other people's ideas and experiences, as with my
-                  young age I see opportunities in that receive input.
+                  young age I see opportunities in receiving inputs.
                 </p>
               </div>
               <div
