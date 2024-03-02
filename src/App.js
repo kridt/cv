@@ -326,12 +326,12 @@ function App() {
               >
                 <ul>
                   <li>Kundeservice</li>
-                  <li>Frontend udvikling</li>
                   <li>React</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JavaScript</li>
-                  <li>NaxtJs</li>
+                  <li>NodeJS</li>
+                  <li>NextJs</li>
                   <li>Sass</li>
                 </ul>
               </div>
