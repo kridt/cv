@@ -5,7 +5,6 @@ function App() {
   const [english, setEnglish] = useState(false);
   const [imgAfMig, setImgAfMig] = useState("/imgAfMig.jpg");
 
-  console.log(english);
   return (
     <div className="App">
       {english ? (
@@ -354,6 +353,12 @@ function App() {
                   onMouseLeave={() => setImgAfMig("/imgAfMig.jpg")}
                   onMouseEnter={() => setImgAfMig("/IMG_2728.jpg")}
                 />
+                <p style={{ marginLeft: "2em" }}>
+                  Bonus info, CV'et er lavet som hjemmeside =={">"}
+                  <a href="https://christian-cv.vercel.app">
+                    https://christian-cv.vercel.app
+                  </a>
+                </p>
               </div>
               <div style={{ flex: "1", lineHeight: "4px", paddingTop: "1em" }}>
                 <p style={{ marginLeft: "2.5em", fontSize: ".8em" }}>
