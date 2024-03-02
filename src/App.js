@@ -3,6 +3,7 @@ import "./App.css";
 
 function App() {
   const [english, setEnglish] = useState(false);
+  const [imgAfMig, setImgAfMig] = useState("/imgAfMig.jpg");
 
   console.log(english);
   return (
@@ -84,7 +85,7 @@ function App() {
                 >
                   <i className="fa-solid fa-house"></i>
                   <p style={{ marginLeft: "3px" }}>
-                    Munkholmvej 389, 4060 Kirke Såby, Denmark
+                    Corneliusmindevej 1, 2770 Kastrup, Denmark
                   </p>
                 </div>
                 <div style={{ marginLeft: "2em" }}>
@@ -168,8 +169,10 @@ function App() {
               <div style={{ flex: "1", width: "200px" }} className="imgDiv">
                 <img
                   style={{ width: "200px", marginLeft: "1em" }}
-                  src="/imgAfMig.jpg"
+                  src={imgAfMig}
                   alt="placeholder"
+                  onMouseLeave={() => setImgAfMig("/imgAfMig.jpg")}
+                  onMouseEnter={() => setImgAfMig("/IMG_2728.jpg")}
                 />
               </div>
               <div style={{ flex: "1", lineHeight: "4px", paddingTop: "1em" }}>
@@ -262,7 +265,7 @@ function App() {
                 >
                   <i className="fa-solid fa-house"></i>
                   <p style={{ marginLeft: "3px" }}>
-                    Munkholmvej 389, 4060 Kirke Såby
+                    Corneliusmindevej 1, 2770 Kastrup
                   </p>
                 </div>
                 <div style={{ marginLeft: "2em" }}>
@@ -346,8 +349,10 @@ function App() {
               <div style={{ flex: "1", width: "200px" }} className="imgDiv">
                 <img
                   style={{ width: "200px", marginLeft: "1em" }}
-                  src="/imgAfMig.jpg"
+                  src={imgAfMig}
                   alt="placeholder"
+                  onMouseLeave={() => setImgAfMig("/imgAfMig.jpg")}
+                  onMouseEnter={() => setImgAfMig("/IMG_2728.jpg")}
                 />
               </div>
               <div style={{ flex: "1", lineHeight: "4px", paddingTop: "1em" }}>
